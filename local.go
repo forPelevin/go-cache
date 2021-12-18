@@ -6,9 +6,6 @@ import (
 	"time"
 )
 
-//go:generate easyjson
-
-//easyjson:json
 type user struct {
 	Id    int64  `json:"id"`
 	Email string `json:"email"`
